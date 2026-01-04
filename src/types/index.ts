@@ -53,3 +53,5 @@ export interface ToolPageProps {
   tool: Tool;
   relatedTools?: Tool[];
 }
+
+
