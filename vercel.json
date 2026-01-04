@@ -4,7 +4,6 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
-<<<<<<< HEAD
   "redirects": [
     {
       "source": "/:path*",
@@ -18,8 +17,6 @@
       "permanent": true
     }
   ],
-=======
->>>>>>> ee9dce9b637a2ca96d9f95e03e02cc85e61cc07b
   "rewrites": [
     {
       "source": "/(.*)",
@@ -55,4 +52,3 @@
     }
   ]
 }
-
