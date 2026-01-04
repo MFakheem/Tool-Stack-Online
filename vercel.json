@@ -13,7 +13,7 @@
           "value": "www.toolstackonline.com"
         }
       ],
-      "destination": "https://toolstackonline.com/: path*",
+      "destination": "https://toolstackonline.com/:path*",
       "permanent": true
     }
   ],
