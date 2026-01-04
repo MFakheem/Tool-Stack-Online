@@ -1,5 +1,0 @@
-# Redirect www to non-www
-https://www.toolstackonline.com/*  https://toolstackonline.com/:splat  301! 
-
-# SPA fallback
-/*  /index.html  200
