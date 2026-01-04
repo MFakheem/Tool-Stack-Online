@@ -4,13 +4,6 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/www.: domain",
-      "destination": "https://: domain",
-      "permanent": true
-    }
-  ],
   "rewrites": [
     {
       "source": "/(.*)",
@@ -46,3 +39,4 @@
     }
   ]
 }
+
