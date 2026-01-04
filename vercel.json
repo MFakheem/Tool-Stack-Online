@@ -6,8 +6,14 @@
   "trailingSlash": false,
   "redirects": [
     {
-      "source": "/www.: domain",
-      "destination": "https://: domain",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.toolstackonline.com"
+        }
+      ],
+      "destination": "https://toolstackonline.com/:path*",
       "permanent": true
     }
   ],
