@@ -1,16 +1,12 @@
 {
   "version": 2,
-  "regions": [
-    "iad1"
-  ],
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "framework": "vite",
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
     {
-      "source": "/:path((? !api).*)*",
+      "source": "/:path*",
       "has": [
         {
           "type": "host",
@@ -18,14 +14,13 @@
         }
       ],
       "destination": "https://toolstackonline.com/: path*",
-      "permanent": true,
-      "statusCode": 301
+      "permanent": true
     }
   ],
   "rewrites": [
     {
-      "source": "/((? !api).*)",
-      "destination": "/index. html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [
