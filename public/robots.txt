@@ -2,8 +2,18 @@
 User-agent: *
 Allow: /
 
-# Disallow admin or development paths (if any)
-Disallow: /admin/
+# Explicitly allow favicon files for Google Search
+Allow: /favicon-48x48.png
+Allow: /favicon-96x96.png
+Allow: /favicon-144x144.png
+
+# Allow other assets
+Allow: /ads. txt
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.svg
+Allow: /*.css
+Allow: /*.js
 
 # Sitemap location
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://toolstackonline.com/sitemap.xml
